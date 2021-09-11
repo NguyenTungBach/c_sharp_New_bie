@@ -20,7 +20,7 @@ namespace Lab1_Ex5
                 }
                 for (int j = 2; j <= i/2; j++)
                 {
-                    if (i%j == 0 )
+                    if (i%j == 0)
                     { 
                         dem = 1;
                     }
