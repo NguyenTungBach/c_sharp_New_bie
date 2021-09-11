@@ -11,7 +11,7 @@ namespace Lab1_Ex5
              * Viết chương trình in ra giai thừa từ 1 đến 20
              * CD: 4! = 1x2x3x4 = 24
              */
-            int giai_thua = 1;
+            long giai_thua = 1;
             for (int i = 1; i <= 20; i++)
             {
                 giai_thua *= i;
