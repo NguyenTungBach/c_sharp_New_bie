@@ -8,27 +8,14 @@ namespace Lab1_Ex5
         {
             /*
              * Write a program to print the factorials of the integers from 1 to 20
-             * Viết chương trình in ra thừa số các số nguyên tố từ 1 đến 20
-             * Thừa số là số chia hết cho 1 và chính nó
+             * Viết chương trình in ra giai thừa từ 1 đến 20
+             * CD: 4! = 1x2x3x4 = 24
              */
-            for (int i = 1; i < 20; i++)
+            int giai_thua = 1;
+            for (int i = 1; i <= 20; i++)
             {
-                var dem = 0;
-                if (i==1)
-                {
-                    dem = 1;
-                }
-                for (int j = 2; j <= i/2; j++)
-                {
-                    if (i%j == 0)
-                    { 
-                        dem = 1;
-                    }
-                }
-                if (dem==0)
-                {
-                    Console.Write("{0}, ",i);
-                }
+                giai_thua *= i;
+                Console.Write("{0}!={1}\n",i,giai_thua);
             }
         }
     }
