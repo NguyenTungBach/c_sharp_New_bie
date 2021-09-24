@@ -24,6 +24,7 @@ namespace Lab1_05
             Console.WriteLine("U format: {0:U}", dt);
             Console.WriteLine("y format: {0:y}", dt);
             Console.WriteLine("Y format: {0:Y}", dt);
+            Console.WriteLine("Y format: {0:Y}", dt);
         }
     }
 }
